@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="./css/style.css" rel="stylesheet">
     <title>Doctor Care | HTML, CSS & JS Project</title>
+    <!-- remix icon cdn -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
-<body class="bg-green-light-02 overflow-x-hidden ">
+<body class="bg-green-light-02 overflow-x-hidden font-primary">
     <!-- header section -->
-     <header id="header" class="bg-[#DCE9E2] text-primary fixed top-0 right-0 left-0 w-full z-50">
+     <header id="header" class=" text-primary fixed top-0 right-0 left-0 w-full z-50 backdrop-blur-lg">
       <nav class="container max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <!-- logo -->
          <div class="text-xl font-bold">
@@ -45,6 +50,35 @@
               </button>
             </div>
       </nav>
+
+      <!-- TODO: mobile menu -->
      </header>
+
+     <!-- hero or banner -->
+      <section class="py-20 bg-green-light flex items-center justify-between gap-8">
+        <div class="container max-w-screen-xl mx-auto px-4 flex md:flex-row flex-col items-center justify-between">
+          <!-- text content -->
+             <div class="w-full md:w-2/3  text-center md:text-left mb-8 md:mb-0 hero-content">
+
+              <h2 class="text-sm text-primary font-bold mb-8">BOAS-VINDAS A DOCTORCARE 👋</h2>
+
+              <h1 class="text-4xl md:text-6xl font-bold mb-12 mt-5">Assistencia medica simplificada para todos</h1>
+
+              <p class="text-lg md:text-xl mb-8 md:w-4/5">Os medicos da DoctorCare vao alem dos sintomas para tratar a causa raiz de sua doenca e proporcionar uma cura a longo prazo.</p>
+
+                <button class="bg-primary text-white px-6 py-2 rounded-full md:rounded-md text-lg hover:bg-brand-green-hover flex items-center justify-center gap-1 mx-auto md:mx-0">
+                  <i class="ri-whatsapp-line"></i>
+                  <a href="#contact" class="">Agende sua consulta</a>
+             </button>
+             </div>
+           
+          <!-- image -->
+           <div class="w-full md:w-1/2 flex items-center justify-center md:justify-end">
+             <img src="./images/hero-banner.png" class="w-full object-cover" alt="">
+           </div>
+        </div>
+      </section>
+
+
 </body>
 </html>

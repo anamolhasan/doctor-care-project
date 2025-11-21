@@ -38,3 +38,6 @@ package.json
   ```
   ``` npm run dev ```
   
+  ## resors
+  - [tailwindcss-v4]
+  - [remix-icon](https://remixicon.com/) 
