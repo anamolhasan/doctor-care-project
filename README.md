@@ -39,5 +39,5 @@ package.json
   ``` npm run dev ```
   
   ## resors
-  - [tailwindcss-v4]
+  - [tailwindcss-v4](https://tailwindcss.com/)
   - [remix-icon](https://remixicon.com/) 
