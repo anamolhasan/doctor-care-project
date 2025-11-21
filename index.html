@@ -7,9 +7,44 @@
      <link href="./css/style.css" rel="stylesheet">
     <title>Doctor Care | HTML, CSS & JS Project</title>
 </head>
-<body>
-     <h1 class="text-3xl font-bold underline text-blue-600 font-DM-Sans">
-    Hello world!
-  </h1>
+<body class="bg-green-light-02 overflow-x-hidden ">
+    <!-- header section -->
+     <header id="header" class="bg-[#DCE9E2] text-primary fixed top-0 right-0 left-0 w-full z-50">
+      <nav class="container max-w-screen-xl mx-auto flex justify-between items-center px-4">
+        <!-- logo -->
+         <div class="text-xl font-bold">
+          <a href="/" class="text-black">Doctor <span class="text-primary">Care</span></a>
+         </div>
+
+         <!-- menu item -->
+          <ul class="hidden md:flex space-x-8">
+             <li>
+              <a href="#home" class="hover:font-bold">Inicio</a>
+             </li>
+             <li>
+              <a href="#service" class="hover:font-bold">Services</a>
+             </li>
+             <li>
+              <a href="#about" class="hover:font-bold">Sobre</a>
+             </li>
+             <li>
+              <a href="#contact" class="hover:font-bold">Depoinentos</a>
+             </li>
+          </ul>
+
+          <!-- call to acton btn -->
+           <div class="hidden md:block">
+            <a
+            id="contact-btn" href="#contact" class="md:m-4 text-primary hover:text-white border border-primary px-6 py-2.5 rounded-full hover:bg-primary transition-all duration-200 md:flex items-center justify-center">Agendar consulta</a>
+           </div>
+
+           <!-- mobile nav bar -->
+            <div class="md:hidden">
+              <button id="mobile-menu-button" class="navbar-burger flex items-center p-3">
+                 <img src="./images/menu-icon.svg" alt="menu icon" class="block w-4 h-4 fill-current">
+              </button>
+            </div>
+      </nav>
+     </header>
 </body>
 </html>
