@@ -38,6 +38,6 @@ package.json
   ```
   ``` npm run dev ```
   
-  ## resors
+  ## resource
   - [tailwindcss-v4](https://tailwindcss.com/)
   - [remix-icon](https://remixicon.com/) 
